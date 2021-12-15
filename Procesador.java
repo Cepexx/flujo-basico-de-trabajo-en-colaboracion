@@ -1,10 +1,9 @@
-
 /**
  * Clase Procesador
  */
 public class Procesador
 {
-    // instance variables - replace the example below with your own
+    // Variables de la clase
     private int voltaje;
     private boolean graficaIntegrada;
 
@@ -18,19 +17,28 @@ public class Procesador
         graficaIntegrada = graficaIntegradaProcesador;
     }
     
+    // Devuelve el voltaje del procesador
     public int getVoltaje() {
         return voltaje;
     }
     
+    // Dice si el procesador tiene gráfica integrada
     public boolean getGraficaIntegrada() {
         return graficaIntegrada;
     }
     
-    public void setVoltage() {
-        voltaje = 3;
+    // Asigna el voltaje del procesador
+    public void setVoltage(int voltajeProcesador) {
+        voltaje = voltajeProcesador;
     }
     
-    public void setGraficaIntegrada() {
-        graficaIntegrada = true;
+    // Asigna si el procesador tiene gráfica integrada
+    public void setGraficaIntegrada(boolean tieneGraficaIntegrada) {
+        graficaIntegrada = tieneGraficaIntegrada;
+    }
+    
+    // Imprime los detalles del procesador
+    public void imprimeDetalles(){
+        System.out.println("Voltaje: " + voltaje + "W " + " Tiene gráfica: " + graficaIntegrada);
     }
 }
