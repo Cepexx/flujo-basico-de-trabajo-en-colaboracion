@@ -17,4 +17,20 @@ public class Procesador
         voltaje = voltajeProcesador;
         graficaIntegrada = graficaIntegradaProcesador;
     }
+    
+    public int getVoltaje() {
+        return voltaje;
+    }
+    
+    public boolean getGraficaIntegrada() {
+        return graficaIntegrada;
+    }
+    
+    public void setVoltage() {
+        voltaje = 3;
+    }
+    
+    public void setGraficaIntegrada() {
+        graficaIntegrada = true;
+    }
 }
