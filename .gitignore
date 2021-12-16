@@ -1,0 +1,8 @@
+//Ignora archivos terminados en .class
+*.class
+//Ignora archivos terminados en .ctxt
+*.ctxt
+//Ignora archivos terminados en .txt
+*.txt
+//Ignora el archivo package.bluej
+package.bluej
