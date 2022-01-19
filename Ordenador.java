@@ -18,4 +18,17 @@ public class Ordenador {
         precio = precioOrdenador;
         microProcesador = microProcesadorOrdenador;
     }
+    
+    //Getters
+    public String getUsuario(){
+        return usuario;
+    }
+    
+    public float getPrecio(){
+        return precio;
+    }
+    
+    public Procesador getProcesador(){
+        return microProcesador;
+    }
 }
